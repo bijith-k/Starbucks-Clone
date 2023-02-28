@@ -1,0 +1,454 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ body{
+  font-family: Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  background-color: #fff;
+  color: #333;
+ }
+ .container{
+  max-width: 100%;
+  display: grid;
+  
+ }
+ .header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  
+}
+ .headleft{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100px;
+  justify-content: space-between;
+ }
+ .left{
+  color: rgb(0, 0, 0);  
+  margin-right: 10px;
+  cursor: pointer;
+ }
+ .left:hover{
+  color: green;
+ }
+ .leftimg{
+  width: 50px ;
+  margin-left: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+ }
+ .headright{
+  margin-left: 500px;
+  width: 30%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+ }
+ .right{
+  color: rgb(0, 0, 0); 
+  margin-right: 20px; 
+  cursor: pointer;
+ }
+ .location{
+  width: 20px;
+  padding-right: 10px;
+ }
+.signin{
+  width: 80px;
+  height: 30px;
+  font-weight: 600; 
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.join{
+  width: 90px;
+  height: 32px;
+  font-weight: 600; 
+  border-radius: 50px;
+  background-color: black;
+  color: #f5f5f5;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.right:hover{
+  color: green;
+ }
+ .signin:hover{
+  background-color: lightgray;
+ }
+ .join:hover{
+  background-color: rgba(0, 0, 0, 0.651);
+ }
+ .sectiona{
+  background-color: #d50032;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  height: 220px;
+  color: #f5f5f5;
+ }
+ .sectionaright{
+  text-align: center;
+  padding: 20px 48px 32px 48px;
+ }
+ h1{
+  padding-bottom: 45px;
+ }
+ .cheer{
+  font-size: 48px;
+  color: #f5f5f5;
+ }
+ .rew:hover{
+  text-decoration: none;
+ }
+ .rewards:hover{
+  cursor: pointer;
+ }
+ p{
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 25px;
+ }
+ ul{
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 19px;
+  padding-bottom: 20px;
+  line-height: 35px;
+ }
+  .sectionb{
+    width: 100%;
+    height: 565px;
+    margin-top: 30px;
+  }
+  .sectionbleft{
+    width: 50%;
+    height: 100%;
+    background-color: #d50032;
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    color: #f5f5f5;
+  }
+  .sectionbright{
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  .first1{
+    width: 100%;
+  }
+  .buynow{
+    min-width: 35px;
+    min-height: 35px;
+    background-color: transparent;
+    color: #f5f5f5;
+    border: 1px solid white;
+    padding: 7px 16px 7px 14px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .hoiday{
+    margin-top: 100px;
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  .bring{
+     line-height: 40px;
+    font-size: 25px;
+  }
+  .sectionc{
+    width: 100%;
+    height: 565px;
+    margin-top: 30px;
+  }
+  .sectioncleft{
+    width: 50%;
+    height: 100%;
+    background-color: #006241;
+    float: left;  
+  }
+  .sectioncright{
+    width: 50%;
+    height: 100%;
+    background-color: #00b388;
+    text-align: center;
+    float: left;
+    font-weight: 600;
+     
+  }
+  .second{
+    width: 100%;
+  }
+  .sweet{
+    margin-top: 160px;
+    font-size: 50px;
+    font-weight: 400;
+    color: #1e3932;;
+  }
+  .chocolate{
+    margin-top: 45px;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1e3932;;
+  }
+  .ordernow{
+    min-width: 35px;
+    min-height: 35px;
+    background-color: transparent;
+    color: #1e3932;;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px 16px 7px 16px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .ordernow:hover{
+    background-color: #000c080c;
+  }
+  .sectiond{
+    width: 100%;
+    height: 565px;
+    margin-top: 30px;
+  }
+  .sectiondleft{
+    width: 50%;
+    height: 100%;
+    background-color: #006241;
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    color: #f5f5f5;
+  }
+  .sectiondright{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #006241;
+  }
+  .third{
+    width: 100%;
+  }
+  .buynow{
+    min-width: 35px;
+    min-height: 35px;
+    background-color: transparent;
+    color: #f5f5f5;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    padding: 7px 16px 7px 16px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .buynow:hover{
+    background-color: #d4e9e279;
+  }
+  .cherish{
+    line-height: 60px;
+    margin-top: 150px;
+    font-size: 53px;
+    font-weight: 50;
+  }
+  .christmas{
+    margin-top: 35px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .sectione{
+    width: 100%;
+    height: 380px;
+    margin-top: 30px;
+  }
+  .sectioneleft{
+    width: 50%;
+    height: 100%;
+    
+    float: left;  
+  }
+  .sectioneright{
+    width: 50%;
+    height: 100%;
+    background-color: #1e3932;
+    text-align: center;
+    float: left;
+    font-weight: 600;
+    color: #f5f5f5;
+  }
+  .fourth{
+    width: 100%;
+  }
+  .spice{
+    margin-top: 90px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .warm{
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+   .last{
+    cursor: pointer;
+   }
+   .last:hover{
+    text-decoration: none;
+   }
+  .sectionf{
+    width: 100%;
+    height: 130px;
+    margin-top: 30px;
+    border-bottom: 1px ;
+    box-shadow: 0 4px 6px -6px #222;
+     
+  }
+  .contentf{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    color: #222;
+    margin-bottom: 30px;
+  }
+  .contentf1{
+    font-size: 15px;
+    text-align: center;
+    color: #222;
+    font-weight: 300;
+  }
+  .content{
+    width: 49%;
+    height: 100%;
+    margin-left: 325px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .sectiong{
+    width: 100%;
+    height: 440px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  h1{
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .sectiong1{
+    width: 190px;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: transparent;
+    color: rgba(0,0,0,.58);
+  }
+  .sectiong2{
+    width: 190px;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgba(0,0,0,.58);
+  }
+  .sectiong3{
+    width: 190px;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgba(0,0,0,.58);
+  }
+  .sectiong4{
+    width: 210px;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgba(0,0,0,.58);
+  }
+  .sectiong5{
+    width: 190px;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgba(0,0,0,.58);
+  }
+  .footer{
+    width: 100%;
+    height: 120px;
+  }
+   .logo{
+    width: 100%;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+   }
+   .policy{
+    width: 100%;
+    height: 40px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+   .rights{
+    width: 100%;
+    height: 40px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+   .policy1{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .policy2{
+    font-size: 13px;
+    color: rgba(0,0,0,.58);
+   }
+  .logos{
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .gsec{
+    cursor: pointer;
+  }
+  .gsec:hover{
+    color: black;
+  }
+  .policy1{
+    cursor: pointer;
+  }
+  .policy1:hover{
+    text-decoration: underline;
+  }
+ /*  .logos:hover{
+    border: 15px solid rgba(17, 2, 2, 0.247);
+    border-radius: 50px;
+  } /*
